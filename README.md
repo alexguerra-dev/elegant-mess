@@ -22,6 +22,9 @@ as you edit the file.
     - [ ] Create Domain
       - [ ] Prod
       - [ ] Dev
+- [ ] Document a brainstorm about UI
+- [ ] Add game assets
+- [ ] Make some web pages
 
 ### Developer Maintenance
 
