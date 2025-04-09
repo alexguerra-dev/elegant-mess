@@ -17,11 +17,11 @@ as you edit the file.
 ## Tasks For The Site
 
 - [ ] Get the Site Live
-- [ ] Make a github repo
-- [ ] Make a Verecel site
-- [ ] Create Domain
-  - [ ] Prod
-  - [ ] Dev
+  - [ ] Make a github repo
+  - [x] Make a Verecel site
+    - [ ] Create Domain
+      - [ ] Prod
+      - [ ] Dev
 
 ### Developer Maintenance
 
