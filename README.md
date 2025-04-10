@@ -25,6 +25,8 @@ as you edit the file.
 - [ ] Document a brainstorm about UI
 - [ ] Add game assets
 - [ ] Make some web pages
+- [ ] Look into charting libraries
+- [ ] Watch NextJS tutorials
 
 ### Developer Maintenance
 
