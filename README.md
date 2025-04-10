@@ -31,6 +31,7 @@ as you edit the file.
 - [ ] Make some mock data
   - [ ] Look into using some `Faker` data
 - [ ] Make list of things I want to try and get working in NextJS
+- [ ] Implement a dark background
 
 ### Developer Maintenance
 
@@ -50,3 +51,8 @@ as you edit the file.
 > Vibe coding _should_ be **fun**. Right? If it was not fun why would we do it?
 
 ![a girl in a green shirt is scratching her head in front of a crowd](https://media.tenor.com/7XIFkNynPpEAAAAC/sailor-moon-makoto-kino.gif)
+
+Things I would like to know.
+
+- What is the difference between using the anchor tag and the NextJS link component?
+- ... (Put more questions here)
