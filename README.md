@@ -16,12 +16,12 @@ as you edit the file.
 
 ## Tasks For The Site
 
-- [ ] Get the Site Live
-  - [ ] Make a github repo
+- [x] Get the Site Live
+  - [x] Make a github repo
   - [x] Make a Verecel site
-    - [ ] Create Domain
-      - [ ] Prod
-      - [ ] Dev
+    - [x] Create Domain
+      - [x] [Production](https://elegant-mess.lovelyvector.com)
+      - [x] [Development](https://dev.elegant-mess.lovelyvector.com)
 - [ ] Document a brainstorm about UI
 - [ ] Add game assets
 - [ ] Make some web pages
@@ -35,3 +35,6 @@ as you edit the file.
 - Chore _system_
 
 Site is down.
+Site is now up.
+
+Vibe coding _should_ be **fun**. Right? If it was not fun why would we do it?
