@@ -47,7 +47,6 @@ as you edit the file.
   - What day of the week it is
   - Funny picture or video
 
-Site is down.
-Site is now up.
+> Vibe coding _should_ be **fun**. Right? If it was not fun why would we do it?
 
-Vibe coding _should_ be **fun**. Right? If it was not fun why would we do it?
+![a girl in a green shirt is scratching her head in front of a crowd](https://media.tenor.com/7XIFkNynPpEAAAAC/sailor-moon-makoto-kino.gif)
