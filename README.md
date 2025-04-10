@@ -25,16 +25,27 @@ as you edit the file.
 - [ ] Document a brainstorm about UI
 - [ ] Add game assets
 - [ ] Make some web pages
+  - [ ] Make _to do_ list application
 - [ ] Look into charting libraries
 - [ ] Watch NextJS tutorials
+- [ ] Make some mock data
+  - [ ] Look into using some `Faker` data
+- [ ] Make list of things I want to try and get working in NextJS
 
 ### Developer Maintenance
 
 ## Site Ideas
 
+- Wishlist (Things for the family?)
 - Fitness & Activity Tracker
 - D&D Character Sheets
 - Chore _system_
+- Make a morning dashboard
+  - Get in car count down
+  - Tasks List
+  - Who is picking them up
+  - What day of the week it is
+  - Funny picture or video
 
 Site is down.
 Site is now up.
