@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Home() {
     return (
         <div>
@@ -6,7 +8,7 @@ export default function Home() {
             <p>
                 This is a simple webpage for my life. It is a work in progress.
             </p>
-
+            <Link href="/about">About</Link>
             {/* Figure out how to effectively add an iframe from Spotify */}
             <iframe
                 src="https://open.spotify.com/embed/track/1XrSjpNe49IiygZfzb74pk?utm_source=generator"
