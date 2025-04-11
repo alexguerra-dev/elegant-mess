@@ -1,7 +1,15 @@
 {
     "name": "elegant-mess",
-    "version": "0.1.0",
+    "version": "0.0.1",
     "private": true,
+    "author": "Alexander Guerra",
+    "description": "A app that is elegant and messy at the same time.",
+    "homepage": "https://elegant-mess.lovelyvector.com",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/alexguerra-dev/elegant-mess.git"
+    },
     "scripts": {
         "dev": "next dev --turbopack",
         "build": "next build",
