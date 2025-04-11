@@ -2,6 +2,10 @@ export default function Home() {
     return (
         <div>
             <h1>Hello, World!</h1>
+            <h2>Welcome to my webpage</h2>
+            <p>
+                This is a simple webpage for my life. It is a work in progress.
+            </p>
 
             {/* Figure out how to effectively add an iframe from Spotify */}
             <iframe
