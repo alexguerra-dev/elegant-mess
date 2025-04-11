@@ -16,25 +16,26 @@ as you edit the file.
 
 ## Tasks For The Site
 
+- [ ] Document a brainstorm about UI
+- [ ] Make website navigation
+- [ ] Make `Footer` and `Header` components
+- [ ] Make _to do_ list application
+- [ ] Look into charting libraries
+- [ ] Implement a dark background
+
 - [x] Get the Site Live
   - [x] Make a github repo
   - [x] Make a Verecel site
     - [x] Create Domain
       - [x] [Production](https://elegant-mess.lovelyvector.com)
       - [x] [Development](https://dev.elegant-mess.lovelyvector.com)
-- [ ] Document a brainstorm about UI
-- [ ] Make website navigation
-  - [ ] Make `Footer` and `Header` components
-- [ ] Add game assets
-- [ ] Make some web pages
-  - [ ] Make _to do_ list application
-- [ ] Look into charting libraries
+- [x] Add game assets
+- [x] Make some web pages
 - [ ] Watch NextJS tutorials
   - [ ] Learn about routing
 - [ ] Make some mock data
   - [ ] Look into using some `Faker` data
 - [ ] Make list of things I want to try and get working in NextJS
-- [ ] Implement a dark background
 
 ### Developer Maintenance
 
