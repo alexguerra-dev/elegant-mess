@@ -68,15 +68,18 @@ export default function Home() {
             </p>
 
             {/* This is almost like the start of a component */}
-            <h2>Cool little things to build</h2>
-            <ul>
-                <li>A hanafuda card component</li>
-                <li>A task list</li>
-                <li>
-                    Something to help get the kids out the door in the morning.
-                </li>
-                <li>Bird song bingo or memory game</li>
-            </ul>
+            <div>
+                <h2 className="pt-20">Cool little things to build</h2>
+                <ul>
+                    <li>A hanafuda card component</li>
+                    <li>A task list</li>
+                    <li>
+                        Something to help get the kids out the door in the
+                        morning.
+                    </li>
+                    <li>Bird song bingo or memory game</li>
+                </ul>
+            </div>
             {/* This is like the end of the component */}
             <div className="bg-emerald-400">
                 <h2 className="text-5xl">My Favorite Music</h2>
