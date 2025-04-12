@@ -6,15 +6,21 @@ export default function Home() {
         <div className="">
             <h1 className="text-9xl text-amber-500">Hello, World!</h1>
 
-            <h2 className="text-4xl text-emerald-500">Welcome to my webpage</h2>
-            <p className="text-2xl text-cyan-900">
-                This is a simple webpage for my life. It is a work in progress.
-            </p>
+            <div>
+                <h2 className="text-4xl text-emerald-500">
+                    Welcome to my webpage
+                </h2>
+                <p className="text-2xl text-cyan-900">
+                    This is a simple webpage for my life. It is a work in
+                    progress.
+                </p>
+            </div>
+
             <Link className="text-red-500" href="/about">
                 About
             </Link>
 
-            <div className="w-10 h-10 bg-amber-200"></div>
+            <div className="w-10 h-11 bg-amber-200"></div>
             <div className="w-10 h-10 bg-amber-200"></div>
             <p className="text-5xl text-shadow-black shadow-2xl text-red-400">
                 I want to learn to make cool stuff
@@ -36,26 +42,27 @@ export default function Home() {
                 <li>Drawing</li>
                 <li>Music</li>
             </ul>
-            <h3 className="text-white text-4xl">
-                It is ok to just write things. That is what will help me fill
-                out what this is a going to be
-            </h3>
-            <p>That looks a lot more like a sentence than a title</p>
-            <p>
-                It would be cool to learn more tailwinds. Especially, when it
-                comes to the transformations and stuff. I would also like to
-                understand how the background and gradient system work. I can
-                just keep adding to this page. It doesn't have to really be
-                anything except a hub for navigation. I want to know how to
-                idiomatically style a word in the middle of a p tag. I guess I
-                don't really understand the concept of a span. That might be
-                something for me to ask AI.
-            </p>
-
-            <p>
-                It might be good to make a list of things that I want to ask. Or
-                I could just ask it
-            </p>
+            <div>
+                <h3 className="text-white text-4xl">
+                    It is ok to just write things. That is what will help me
+                    fill out what this is a going to be
+                </h3>
+                <p>That looks a lot more like a sentence than a title</p>
+                <p>
+                    It would be cool to learn more tailwinds. Especially, when
+                    it comes to the transformations and stuff. I would also like
+                    to understand how the background and gradient system work. I
+                    can just keep adding to this page. It doesn't have to really
+                    be anything except a hub for navigation. I want to know how
+                    to idiomatically style a word in the middle of a p tag. I
+                    guess I don't really understand the concept of a span. That
+                    might be something for me to ask AI.
+                </p>
+                <p>
+                    It might be good to make a list of things that I want to
+                    ask. Or I could just ask it
+                </p>
+            </div>
             <h2>Tests for myself</h2>
             <ul>
                 <li>Make a button that does something</li>
