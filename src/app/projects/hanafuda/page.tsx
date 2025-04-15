@@ -11,7 +11,7 @@ export default function Hanafuda() {
                 <HanafudaCard month="january"></HanafudaCard>
                 <HanafudaCard month="feb"></HanafudaCard>
             </div>
-            <LandingSpot className=""></LandingSpot>
+            <LandingSpot></LandingSpot>
         </DndContext>
     )
 }
