@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className="w-full h-full absolute bg-gray-800 text-gray-900">
+            <body className="w-full h-full absolute bg-gradient-to-r from-sky-500 to-indigo-600 ">
                 <header className="flex justify-between items-center px-8 py-6 md:px-32 bg-white drop-shadow-medium">
                     <div className="">
                         <h1 className="text-8xl font-bold">
@@ -31,10 +31,20 @@ export default function RootLayout({
                         </p>
                     </div>
                     <nav className="flex space-x-4">
-                        <Link href="/">Home</Link>
-                        <Link href="/about">About</Link>
-                        <Link href="/projects">Projects</Link>
-                        <Link href="/contact">Contact</Link>
+                        <p className="underline">
+                            <Link className="underline text-4xl" href="/about">
+                                About
+                            </Link>
+                        </p>
+                        <Link className="underline" href="/projects">
+                            Projects
+                        </Link>
+                        <Link className="underline" href="/contact">
+                            Contact
+                        </Link>
+                        <Link className="underline" href="/">
+                            Home
+                        </Link>
                     </nav>
                 </header>
 
