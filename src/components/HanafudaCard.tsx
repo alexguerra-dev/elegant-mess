@@ -9,7 +9,7 @@ interface HanafudaCardProps {
 }
 
 const imageStyle = {
-    width: 'auto%',
+    width: 'auto',
     height: '100%',
     maxWidth: '512px',
     maxHeight: '839px',
@@ -30,7 +30,7 @@ export default function HanafudaCard(props: HanafudaCardProps) {
             style={style}
             {...listeners}
             {...attributes}
-            className="w-36  bg-gray-900"
+            className="w-56 m-8 p-4 bg-black rounded-2xl "
         >
             <Image
                 src={`/images/hanafuda/${props.month}-1.svg`}
