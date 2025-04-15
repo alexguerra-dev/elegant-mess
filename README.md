@@ -29,13 +29,19 @@ as you edit the file.
     - [x] Create Domain
       - [x] [Production](https://elegant-mess.lovelyvector.com)
       - [x] [Development](https://dev.elegant-mess.lovelyvector.com)
-- [x] Add game assets
+- [ ] Add game assets
+  - [ ] Import Hanafuda assets
 - [x] Make some web pages
 - [ ] Watch NextJS tutorials
   - [ ] Learn about routing
 - [ ] Make some mock data
   - [ ] Look into using some `Faker` data
 - [ ] Make list of things I want to try and get working in NextJS
+- [ ] Document the stuff in the `public` folder
+- [ ] Make _fun_ components
+  - [ ] Make `Die` component
+  - [ ] Make `Hanafuda` component
+- [ ] Look into drag and drop react libraries
 
 ### Developer Maintenance
 

@@ -3,9 +3,16 @@ import Image from 'next/image'
 
 export default function Home() {
     return (
-        <div className="flex bg-gradient-to-r from-sky-500 to-indigo-600 ">
+        <div className="flex ">
             <div>
                 <h1 className="text-9xl text-amber-500">Hello, World!</h1>
+                <Image
+                    src="/images/hanafuda/january-1.svg"
+                    height="839"
+                    width="512"
+                    alt="Hanafuda card"
+                ></Image>
+
                 <h2 className="text-4xl text-emerald-500">
                     Welcome to my webpage
                 </h2>
