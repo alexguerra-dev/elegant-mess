@@ -8,6 +8,13 @@ interface HanafudaCardProps {
     children?: React.ReactNode
 }
 
+const imageStyle = {
+    width: 'auto%',
+    height: '100%',
+    maxWidth: '512px',
+    maxHeight: '839px',
+}
+
 export default function HanafudaCard(props: HanafudaCardProps) {
     const { attributes, listeners, setNodeRef, transform } = useDraggable({
         id: props.month,
@@ -18,12 +25,19 @@ export default function HanafudaCard(props: HanafudaCardProps) {
         transition: 'transform 0.3s ease',
     }
     return (
-        <div ref={setNodeRef} style={style} {...listeners} {...attributes}>
+        <div
+            ref={setNodeRef}
+            style={style}
+            {...listeners}
+            {...attributes}
+            className="w-36  bg-gray-900"
+        >
             <Image
-                src="/images/hanafuda/january-1.svg"
+                src={`/images/hanafuda/${props.month}-1.svg`}
                 height="839"
                 width="512"
                 alt="Hanafuda card"
+                style={imageStyle}
             ></Image>
             {props.children}
         </div>

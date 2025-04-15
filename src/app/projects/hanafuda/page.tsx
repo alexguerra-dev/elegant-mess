@@ -9,7 +9,7 @@ export default function Hanafuda() {
         <DndContext>
             <div className="flex">
                 <HanafudaCard month="january"></HanafudaCard>
-                <HanafudaCard month="feb"></HanafudaCard>
+                <HanafudaCard month="february"></HanafudaCard>
             </div>
             <LandingSpot></LandingSpot>
         </DndContext>
