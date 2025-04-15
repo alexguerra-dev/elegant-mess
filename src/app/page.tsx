@@ -6,12 +6,14 @@ export default function Home() {
         <div className="flex ">
             <div>
                 <h1 className="text-9xl text-amber-500">Hello, World!</h1>
-                <Image
-                    src="/images/hanafuda/january-1.svg"
-                    height="839"
-                    width="512"
-                    alt="Hanafuda card"
-                ></Image>
+                <Link href="/projects/hanafuda">
+                    <Image
+                        src="/images/hanafuda/january-1.svg"
+                        height="839"
+                        width="512"
+                        alt="Hanafuda card"
+                    ></Image>
+                </Link>
 
                 <h2 className="text-4xl text-emerald-500">
                     Welcome to my webpage

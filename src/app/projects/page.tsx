@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Projects() {
     return (
         <div>
@@ -7,9 +9,36 @@ export default function Projects() {
                 details about each project soon.
             </p>
             <ul>
-                <li>Project 1</li>
-                <li>Project 2</li>
-                <li>Project 3</li>
+                <li>
+                    <Link href="/projects/dnd" className="text-3xl m-3 outline">
+                        Dnd
+                    </Link>
+                </li>
+                <li>
+                    <Link href="/projects/hanafuda" className="text-3xl m-3">
+                        Hanafuda
+                    </Link>
+                </li>
+                <li>
+                    <Link href="/projects/memory-game" className="text-3xl m-3">
+                        Memory Game
+                    </Link>
+                </li>
+
+                <li>
+                    <Link
+                        href="/projects/november-games"
+                        className="text-3xl m-3"
+                    >
+                        November Games
+                    </Link>
+                </li>
+
+                <li>
+                    <Link href="/projects/task-list" className="text-3xl m-3">
+                        Task List
+                    </Link>
+                </li>
             </ul>
         </div>
     )

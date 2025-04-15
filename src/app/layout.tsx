@@ -16,7 +16,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className="w-full h-full absolute bg-gradient-to-r from-sky-500 to-indigo-600 ">
-                <header className="flex justify-between items-center px-8 py-6 md:px-32 bg-white drop-shadow-medium">
+                <header className="flex justify-between items-center px-8 py-6 md:px-32 bg-gray-500 drop-shadow-medium">
                     <div className="">
                         <h1 className="text-8xl font-bold">
                             <Link href="/">Elegant Mess</Link>
