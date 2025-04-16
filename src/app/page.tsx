@@ -49,6 +49,7 @@ export default function Home() {
                         alt="A picture of me when I do something good."
                         width={400}
                         height={400}
+                        unoptimized
                         className="rounded-full border-4 border-emerald-500 shadow-2xl"
                     />
                 </div>
