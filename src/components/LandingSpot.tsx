@@ -11,7 +11,11 @@ export default function LandingSpot(props: any) {
         transition: 'background-color 0.3s ease',
     }
     return (
-        <div className="w-1/2 h-1/3 bg-red-500" ref={setNodeRef} style={style}>
+        <div
+            className="w-1/2 h-1/3 bg-gradient-to-r from-amber-400 text-orange-700"
+            ref={setNodeRef}
+            style={style}
+        >
             <h1 className="text-3xl font-bold underline">Hello world!</h1>
             <p className="text-2xl">This is a landing spot</p>
             <p className="text-2xl">Drag a card here</p>

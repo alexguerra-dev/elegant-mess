@@ -5,6 +5,7 @@ import { CSS } from '@dnd-kit/utilities'
 interface HanafudaCardProps {
     // Define the expected properties here, e.g., title?: string;
     month: string
+    size?: string
     children?: React.ReactNode
 }
 
@@ -22,7 +23,7 @@ export default function HanafudaCard(props: HanafudaCardProps) {
     })
     const style = {
         transform: CSS.Translate.toString(transform),
-        transition: 'transform 0.3s ease',
+        transition: 'transform 0.1s ease',
     }
     return (
         <div
@@ -30,7 +31,7 @@ export default function HanafudaCard(props: HanafudaCardProps) {
             style={style}
             {...listeners}
             {...attributes}
-            className="w-56 m-8 p-4 bg-black rounded-2xl "
+            className="w-56 m-4 p-4 bg-black rounded-2xl hover:rotate-3xl hover:scale-105 transition-transform duration-300 ease-in-out"
         >
             <Image
                 src={`/images/hanafuda/${props.month}-1.svg`}
