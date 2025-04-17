@@ -1,3 +1,6 @@
+import Link from 'next/link'
+import CharacterSheet from '@/components/CharacterSheet'
+
 export default function DndPage() {
     return (
         <div>
@@ -12,8 +15,12 @@ export default function DndPage() {
                 Dragons.
             </p>
             <ul>
-                <li>Character 1</li>
-                <li>Character 2</li>
+                <li>
+                    <Link href="/projects/dnd/characters/flix">Flix</Link>
+                </li>
+                <li>
+                    <Link href="/projects/dnd/characters/jade">Jade</Link>
+                </li>
                 <li>Character 3</li>
             </ul>
             <h2>Campaigns</h2>

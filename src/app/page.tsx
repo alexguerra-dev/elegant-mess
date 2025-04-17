@@ -3,9 +3,38 @@ import Image from 'next/image'
 
 export default function Home() {
     return (
-        <div className="flex ">
+        <div className="flex">
+            <div className="flex flex-col border-4 p-4 m-4 rounded-3xl shadow-2xl bg-amber-300">
+                <h2 className="text-5xl">Alex</h2>
+                <Image
+                    src="/images/avatars/person.png"
+                    alt="A picture of me"
+                    width={100}
+                    height={100}
+                    className="rounded-full border-4 border-emerald-500 shadow-2xl"
+                />
+                <p>This is where some bio text will go.</p>
+            </div>
+
             <div>
-                <h1 className="text-9xl text-amber-500">Hello, World!</h1>
+                <h2 className="text-5xl border-amber-500 border-8 pr-6 mr-8">
+                    My Projects
+                </h2>
+                <ul>
+                    <li>
+                        <p className="text-3xl">
+                            <Link href="/pile">Pile</Link>
+                        </p>
+                        <p>
+                            <Link href="/projects/dnd">Dnd</Link>
+                        </p>
+
+                        <Link href="/projects/task-list">Task List</Link>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
                 <Link href="/projects/hanafuda">
                     <Image
                         src="/images/hanafuda/january-1.svg"
@@ -18,6 +47,9 @@ export default function Home() {
                 <h2 className="text-4xl text-emerald-500">
                     Welcome to my webpage
                 </h2>
+                <span className="text-6xl text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500">
+                    This is gradient text
+                </span>
                 <div>
                     <p className="text-2xl text-cyan-900">
                         This is a simple webpage for my life. It is a work in
@@ -31,7 +63,7 @@ export default function Home() {
                     </Link>
                 </div>
             </div>
-            <div>
+            <div className="flex flex-col justify-center items-center">
                 <div>
                     <p className="text-5xl text-shadow-black shadow-2xl text-red-400">
                         I want to learn to make cool stuff
@@ -143,20 +175,7 @@ export default function Home() {
                             <p>
                                 <Link href="/projects/dnd">Dnd</Link>
                             </p>
-                            <p className="text-lg">
-                                A simple card game. It is a work in progress. I
-                                am using this project to learn more about
-                                TypeScript and React. I am also using this
-                                project to learn more about Next.js. I am using
-                                this project to learn more about Tailwind CSS. I
-                                am using this project to learn more about how to
-                                deploy a Next.js app. I am using this project to
-                                learn more about how to deploy a Next.js app to
-                                Vercel. I am using this project to learn more
-                                about how to deploy a Next.js app to Vercel with
-                                a custom domain. I am using this project to
-                                learn more
-                            </p>
+
                             <Link href="/projects/task-list">Task List</Link>
                         </li>
                     </ul>
