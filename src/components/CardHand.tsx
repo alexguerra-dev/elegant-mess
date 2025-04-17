@@ -1,4 +1,3 @@
-import React from 'react'
 import HanafudaCard from './HanafudaCard'
 
 export default function CardHand() {
