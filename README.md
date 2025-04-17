@@ -4,6 +4,8 @@ I am not sure what this is going to be.
 
 ## Getting Started
 
+This is how you start the development server.
+
 ```bash
 yarn dev
 ```
@@ -11,15 +13,13 @@ yarn dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates
-as you edit the file.
-
 ## Tasks For The Site
 
 - [ ] Document a brainstorm about UI
 - [ ] Make website navigation
 - [ ] Make `Footer` and `Header` components
 - [ ] Make _to do_ list application
+  - [ ] See if I can use drag and drop.[^1]
 - [ ] Look into charting libraries
 - [ ] Implement a dark background
 
@@ -66,3 +66,7 @@ Things I would like to know.
 
 - What is the difference between using the anchor tag and the NextJS link component?
 - ... (Put more questions here)
+
+---
+
+[^1]: I know that I have found a good tutorial online.
