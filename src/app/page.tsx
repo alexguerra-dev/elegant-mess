@@ -123,13 +123,6 @@ export default function Home() {
                         a lot of different kinds of music from a lot of
                         different kinds of people.
                     </p>
-                    <iframe
-                        src="https://open.spotify.com/embed/track/1XrSjpNe49IiygZfzb74pk?utm_source=generator"
-                        width="100%"
-                        height="352"
-                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                        loading="lazy"
-                    ></iframe>
                 </div>
                 <div className="bg-gradient-to-r from-gray-900 to-green-800 text-white p-4">
                     <h2>My Interests</h2>
