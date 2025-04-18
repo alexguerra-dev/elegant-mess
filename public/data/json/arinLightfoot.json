@@ -1,0 +1,54 @@
+{
+    "name": "Arin Lightfoot",
+    "class": "Rogue",
+    "level": 3,
+    "race": "Halfling",
+    "alignment": "Chaotic Good",
+    "attributes": {
+        "strength": 10,
+        "dexterity": 16,
+        "constitution": 14,
+        "intelligence": 12,
+        "wisdom": 10,
+        "charisma": 14
+    },
+    "skills": ["Stealth", "Acrobatics", "Sleight of Hand", "Perception"],
+    "hit_points": 21,
+    "equipment": ["Shortsword", "Dagger", "Leather Armor", "Thieves' Tools"],
+    "background": "Criminal",
+    "proficiencies": {
+        "armor": ["Light Armor"],
+        "weapons": [
+            "Simple Weapons",
+            "Hand Crossbows",
+            "Longswords",
+            "Rapiers",
+            "Shortswords"
+        ],
+        "tools": ["Thieves' Tools"]
+    },
+    "languages": ["Common", "Halfling"],
+    "features": [
+        {
+            "name": "Sneak Attack",
+            "description": "Once per turn, you can deal an extra 2d6 damage to one creature you hit with an attack if you have advantage on the attack roll."
+        },
+        {
+            "name": "Halfling Nimbleness",
+            "description": "You can move through the space of any creature that is of a size larger than yours."
+        }
+    ],
+    "personality_traits": [
+        "I always have a plan for what to do when things go wrong.",
+        "The best way to get me to do something is to tell me I can't do it."
+    ],
+    "ideals": [
+        "Freedom. Chains are meant to be broken, as are those who would forge them."
+    ],
+    "bonds": [
+        "I'm trying to pay off an old debt I owe to a generous benefactor."
+    ],
+    "flaws": [
+        "When I see something valuable, I can’t think about anything but how to steal it."
+    ]
+}
