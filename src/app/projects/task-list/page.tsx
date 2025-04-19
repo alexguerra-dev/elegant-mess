@@ -12,7 +12,11 @@ export default function TaskList() {
     return (
         <div className="bg-gray-900 text-white">
             <h1>My Tasks</h1>
-            <DndContext collisionDetection={closestCorners}></DndContext>
+            <ul>
+                <li>Plan wedding</li>
+                <li>Add AI to the planning process</li>
+                <li>Document or make a system for general planning</li>
+            </ul>
         </div>
     )
 }
