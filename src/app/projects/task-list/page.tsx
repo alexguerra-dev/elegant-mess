@@ -17,6 +17,14 @@ export default function TaskList() {
                 <li>Add AI to the planning process</li>
                 <li>Document or make a system for general planning</li>
             </ul>
+
+            {tasks.map((task) => {
+                return (
+                    <div key={task.id} className="bg-gray-800 p-4 m-2 rounded">
+                        {task.name}
+                    </div>
+                )
+            })}
         </div>
     )
 }
