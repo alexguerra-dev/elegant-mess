@@ -6,7 +6,7 @@ I added this to my `keybindings.json` file.
 { "key": "a", "command": "explorer.newFile", "when": "explorerViewletFocus" }
 ```
 
-This did not work as _expected_ it still uses the `a` key when I am typing in a file name as the key to make a new file. I feel like that is something that can be fixed with a conditional statment. But, I am not sure how to do that. It might be a good thing to ask the AI about.
+This did not work as _expected_ it still uses the `a` key when I am typing in a file name as the key to make a new file. I feel like that is something that can be fixed with a conditional statement. But, I am not sure how to do that. It might be a good thing to ask the AI about.
 
 Now, when I am _focused_ on the explorer I can make a new file with the `a` key.
 

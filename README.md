@@ -47,7 +47,7 @@ result.
 - [ ] Make _fun_ components
   - [ ] Make `Die` component
   - [ ] Make `Hanafuda` component
-- [ ] Look into drag and drop react libraries
+- [x] Look into drag and drop react libraries[^2]
 
 ### Developer Maintenance
 
@@ -76,3 +76,4 @@ Things I would like to know.
 ---
 
 [^1]: I know that I have found a good tutorial online.
+[^2]: I am going to use

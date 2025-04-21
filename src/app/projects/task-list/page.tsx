@@ -4,9 +4,14 @@ import { closestCorners, DndContext } from '@dnd-kit/core'
 
 export default function TaskList() {
     const [tasks, setTasks] = useState([
-        { id: 1, name: 'Make Todo List' },
-        { id: 2, name: 'Task 2' },
-        { id: 3, name: 'Task 3' },
+        { id: 1, item: 'Make Todo List', status: 'done' },
+        { id: 2, item: 'Document things', status: 'in progress' },
+        {
+            id: 3,
+            item: 'Make a way to persist todos and stuff',
+            status: 'in progress',
+        },
+        { id: 4, item: 'Add status to task list', status: 'done' },
     ])
 
     return (
@@ -21,7 +26,7 @@ export default function TaskList() {
             {tasks.map((task) => {
                 return (
                     <div key={task.id} className="bg-gray-800 p-4 m-2 rounded">
-                        {task.name}
+                        {task.item} the task is {task.status}
                     </div>
                 )
             })}
