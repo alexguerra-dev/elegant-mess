@@ -1,18 +1,43 @@
+'use client'
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { useEffect, useState } from 'react'
+import { auth } from '../../firebase/clientApp'
+import { onAuthStateChanged, signOut, User } from 'firebase/auth'
 
 import './globals.css'
 
-export const metadata: Metadata = {
-    title: 'Elegant Mess - Pop!',
-    description: 'A webpage for my life.',
-}
+// export const metadata: Metadata = {
+//     title: 'Elegant Mess - Pop!',
+//     description: 'A webpage for my life.',
+// }
 
 export default function RootLayout({
     children,
 }: Readonly<{
     children: React.ReactNode
 }>) {
+    const [user, setUser] = useState<null | User>(null)
+
+    useEffect(() => {
+        console.log('useEffect')
+        console.log('auth', auth)
+
+        if (auth) {
+            console.log('auth is defined')
+            // what are properties of auth?
+            console.log('auth.currentUser', auth.currentUser)
+            console.log('auth.currentUser', auth.currentUser?.email)
+            console.log('auth.currentUser', auth.currentUser?.uid)
+            console.log('auth.currentUser', auth.currentUser?.displayName)
+        }
+        const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
+            console.log('onAuthStateChanged', currentUser)
+            setUser(currentUser)
+        })
+        return () => unsubscribe()
+        // console.log('user', User)
+    })
     return (
         <html lang="en">
             <body className=" flex flex-col w-full h-full justify-between absolute bg-gradient-to-r from-sky-500 to-indigo-600 max-h-screen">
@@ -36,15 +61,34 @@ export default function RootLayout({
                                 About
                             </Link>
                         </p>
+                        <Link className="underline" href="/">
+                            Home
+                        </Link>
                         <Link className="underline" href="/projects">
                             Projects
                         </Link>
                         <Link className="underline" href="/contact">
                             Contact
                         </Link>
-                        <Link className="underline" href="/">
-                            Home
-                        </Link>
+
+                        {user ? (
+                            <button
+                                className="underline text-blue-500"
+                                onClick={async () => {
+                                    await signOut(auth)
+                                    setUser(null)
+                                }}
+                            >
+                                Sign out
+                            </button>
+                        ) : (
+                            <Link
+                                className="underline text-blue-500"
+                                href="/auth"
+                            >
+                                Login
+                            </Link>
+                        )}
                     </nav>
                 </header>
 
