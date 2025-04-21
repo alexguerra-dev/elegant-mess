@@ -4,7 +4,7 @@ import { closestCorners, DndContext } from '@dnd-kit/core'
 
 export default function TaskList() {
     const [tasks, setTasks] = useState([
-        { id: 1, name: 'Task 1' },
+        { id: 1, name: 'Make Todo List' },
         { id: 2, name: 'Task 2' },
         { id: 3, name: 'Task 3' },
     ])
